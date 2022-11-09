@@ -1,4 +1,4 @@
-@media screen and ( max-width:479px ){
+@media screen and ( max-width:480px ){
     header{
         width:100%;
     }
@@ -23,9 +23,52 @@
         display: none;
     }
     
- 
+    .message-content,
+    .message-content .message-text,
+    .message-content img {
+        position: static;
+    }
 
+    .message-text,
+    .message-text p {
+        width: 100%;
+    }
+
+    .intro-content {
+        width: 100%;
+        flex-wrap: wrap;
+    }
     
+    .greet-left {
+        width: 100%;
+    }
+
+    .t-content-left,
+    .t-content-right,
+    .table-one,
+    .table-two {
+        width: 100%;
+    }
+
+    .greet-three {
+        flex-wrap: wrap;
+    }
+
+    .greeting-container li {
+        float: none;
+    }
+
+    .greet-two li {
+        width: 100%;
+    }
+
+    .foot-left {
+        width: 100%;
+    }
+
+    .greet-three p{
+        
+    }
     
   
         

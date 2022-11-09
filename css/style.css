@@ -1,3 +1,4 @@
+
 body{
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 }
@@ -19,11 +20,6 @@ header{
   width: 1140px;;
   margin:0 auto;
   position:relative;
-}
-
-.l-container h1{
-  position:absolute; 
-  top:7px;
 }
 
 header h1 img{
@@ -162,9 +158,7 @@ nav ul li a:hover{
 }
 
 .notify-one{
-  width:1140px;
   height:405px;
-  margin:0 auto;
   padding-top:30px;
 }
 
@@ -221,9 +215,7 @@ nav ul li a:hover{
   font-family: ;
 }
 .message-content{
-  width:1140px;
   height:473px;
-  margin:0 auto;
   position:relative;
 }
 
@@ -269,17 +261,15 @@ nav ul li a:hover{
   font-style:oblique;
 }
 .m-logo{
-  display:inline-block;
-  margin-top:60px;
-  margin-left:600px;
+  position: absolute;
+  top:60px;
+  left:600px;
   
 }
 
 
 .subject-container{
-  width:1140px;
   height:1180px;
-  margin:0 auto;
 }
 
 
@@ -311,16 +301,6 @@ nav ul li a:hover{
 }
 
 
-.upper-list{
-  width:1140px;
-  height:505px;
-
-}
-.under-list{
-  width:1140px;
-  height:505px;
-  
-}
 .course-list{
   height:504px;
   width:374px;
@@ -391,9 +371,7 @@ nav ul li a:hover{
 
 
 .about-container{
-  width:1140px;
   height:1220px;
-  margin:0 auto;
   padding-top:60px;
 }
 .about-title{
@@ -456,10 +434,6 @@ nav ul li a:hover{
   height:1100px;
 }
 
-.gallery-container{
-  width:1140px;
-  margin:0 auto;
-}
 .gallery-title{
   height:100px;
   width:100%;
@@ -554,10 +528,7 @@ nav ul li a:hover{
   border-bottom:1px solid rgb(228, 228, 228);
 }
 .greeting-container{
-  width:1140px;
   height:620px;
-  margin:0 auto;
-
 }
 
 .greeting-container li{
@@ -656,6 +627,17 @@ nav ul li a:hover{
   color: #212529;
 }
 
+@media screen and ( max-width:640px ){
+  .greet-three p{
+    
+  }
+}
+
+@media screen and ( max-width:480px ){
+  .greet-three p{
+
+  }
+}
 
 .greet-right{
   width:380px;
@@ -695,13 +677,11 @@ nav ul li a:hover{
 }
 
 .intro-container{
-  width:1140px;
   height:636px;
-  margin:0 auto;
 }
 
 .intro-title{
-  width:100
+  waaidth:100
   height:30px;
   padding:5px 0 5px 10px;
   font-size:2.0em;
@@ -719,7 +699,6 @@ nav ul li a:hover{
 
 .intro-content{
   height:580px;
-  width: 1140px;
   display: flex;
 }
 
@@ -801,7 +780,6 @@ nav ul li a:hover{
 }
 
 .adoption{
-  width: 1140px;
   height:48px;
   border-radius: 0.3rem;
   margin-top: 41px;
@@ -825,34 +803,21 @@ nav ul li a:hover{
 }
 
 .spo-ads{
-  width:1140px;
   height:25px;
-  margin:16px 0 ;
   text-align: center;
 }
 
 .intro-container h4{
-  width:1140px;
   height:300px;
   margin-top:20px;
   border:1px solid rgba(0,0,0,.125);
 }
 
-
-
-
-
-
-
-
-
 .treatment{
   height:973px;
 }
 .treatment-container{
-  width:1140px;
   height:520px;
-  margin:0 auto;
   padding-top:40px;
 }
 
@@ -928,6 +893,8 @@ nav ul li a:hover{
   color: #212529;
 }
 
+
+
 .guide-one{
   height:75px;
   margin-bottom:24px;
@@ -971,7 +938,6 @@ nav ul li a:hover{
 
 
 .reserve{
-  width: 1140px;
   height:48px;
   border-radius: 0.3rem;
   margin-top: 41px;
@@ -995,25 +961,12 @@ nav ul li a:hover{
   color:#fff;
 }
 
-
-
-
-
-
-
-
-
-
-
 .access{
   height:685px;
   background-color: #f8f9fa;
 }
 
-.a-container01 , .a-container02{
-  width:1140px;
-  margin:0 auto;
-}
+
 .a-container01{
   padding-top:40px;
 }
@@ -1049,9 +1002,7 @@ nav ul li a:hover{
 
 
 .footer-container{
-  width:1140px;
   height:480px;
-  margin:0  auto;
   padding-top:48px;
 }
 
