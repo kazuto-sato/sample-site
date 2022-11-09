@@ -15,13 +15,13 @@ header{
   height:95px;
 
 }
-.inner{
-  width:85%;
+.l-container{
+  width: 1140px;;
   margin:0 auto;
   position:relative;
 }
 
-.inner h1{
+.l-container h1{
   position:absolute; 
   top:7px;
 }
@@ -114,6 +114,7 @@ nav ul li a:hover{
   background-image:url(../img/top-image.jpg);
   background-repeat:no-repeat;
   background-size:cover;
+  background-position:center;
 }
 
 .key_visual .inner{
@@ -136,6 +137,7 @@ nav ul li a:hover{
 
 .visual_content h2{
   font-size:3.5em;
+  font-weight:300;
   margin-bottom:18px;
   font-family:inherit;
 
@@ -190,6 +192,7 @@ nav ul li a:hover{
 
 .date-notice h2{
   margin-right:10px;
+  line-height:33px;
   display:inline-block;
   letter-spacing: 0.003em;
   border-radius:4px;
@@ -204,14 +207,18 @@ nav ul li a:hover{
 .date-notice p{
   display:inline-block;
   font-weight:bold;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: 1.1rem;
 }
 .date-notice h3{
   color:#6c757d;
-  font-weight:100;
   opacity:1.3;
-}
-.message{
-  background-color: #f8f9fa;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  font-family: ;
 }
 .message-content{
   width:1140px;
@@ -968,7 +975,7 @@ nav ul li a:hover{
   height:48px;
   border-radius: 0.3rem;
   margin-top: 41px;
-  border:1px solid #6c757d;
+  border:1px solid 6c757d;
   transition-property:all;
   transition-duration: 0.5s;
 }

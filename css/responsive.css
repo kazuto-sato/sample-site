@@ -1,0 +1,36 @@
+@media screen and ( max-width:479px ){
+    header{
+        width:100%;
+    }
+    .l-container {
+        width:94%;
+    }
+     
+    .l-container h1{
+        line-height:1.5;
+       
+    }
+    .l-container img{
+        width:240px;
+    }
+    header ul{
+    }
+
+    header ul li a{
+        margin-bottom:15px;
+    }
+    .li-one{
+        display: none;
+    }
+    
+ 
+
+    
+    
+  
+        
+    
+
+
+}
+
