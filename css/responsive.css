@@ -168,9 +168,57 @@
         margin-top:200px;
         padding-bottom:30px;
     }
-
-    
-
-
+    .gallery{
+        height:100%;
+        padding-bottom:40px;
+    }
+    .gallery-title{
+        margin-bottom:30px;
+        position:relative;
+    }
+    .gallery-content{
+        height:100%;
+    }
+    .gallery-content li{
+        float: none;
+    }
+    .gallery-title span{
+        position:absolute;
+        top:40px;
+        left:0px;
+    }
+    .gallery-content h2{
+        width:100%;
+        margin-left:0;
+        justify-content:center;
+    }
+    .gallery-content h2 img{
+        width:390px;
+    }
+    .greeting{
+        height:2000px;
+        background-color: firebrick;
+    }
+    .greeting-container{
+        display: flex;
+    }
+    .greeting-container li{
+        float:none;
+    }
+    .greet-title{
+        order:1;
+    }
+    .greet-one{
+        order:3;
+    }
+    .greet-two{
+        order:4;
+    }
+    .greet-three{
+        order:5;
+    }
+    .greet-right{
+        order:2;
+    }
 }
 

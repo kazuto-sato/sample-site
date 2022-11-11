@@ -425,7 +425,7 @@ nav ul li a:hover{
 .gallery-title {
   line-height:30px;
   border-left:6px solid #aaa;
-  padding-left:20px;
+  padding-left:15px;
   margin-top:50px;
   margin-bottom:20px;
   font-size: 2em;
@@ -464,11 +464,8 @@ nav ul li a:hover{
   border:1px solid rgba(0,0,0,.125);
   border-radius:5px;
   box-shadow:rgba(122, 122, 122, 0.0588235) 0px 0px 6px 3px;
-  -webkit-box-shadow:rgba(122, 122, 122, 0.0588235) 0px 0px 6px 3px;
-  -moz-box-shadow:rgba(122, 122, 122, 0.0588235) 0px 0px 6px 3px;  
 }
 .gall-one h2 img{
-  border:;
   border-radius:5px;
 }
 .gall-two h2{
@@ -477,12 +474,9 @@ nav ul li a:hover{
   border:1px solid rgba(0,0,0,.125);
   border-radius:5px;
   box-shadow:rgba(122, 122, 122, 0.0588235) 0px 0px 6px 3px;
-  -webkit-box-shadow:rgba(122, 122, 122, 0.0588235) 0px 0px 6px 3px;
-  -moz-box-shadow:rgba(122, 122, 122, 0.0588235) 0px 0px 6px 3px;
 
 }
 .gall-two h2 img{
-  border:;
   border-radius:5px;
 
 }
@@ -492,12 +486,9 @@ nav ul li a:hover{
   border:1px solid rgba(0,0,0,.125);
   border-radius:5px;
   box-shadow:rgba(122, 122, 122, 0.0588235) 0px 0px 6px 3px;
-  -webkit-box-shadow:rgba(122, 122, 122, 0.0588235) 0px 0px 6px 3px;
-  -moz-box-shadow:rgba(122, 122, 122, 0.0588235) 0px 0px 6px 3px;
 
 }
 .gall-three h2 img{
-  border:;
   border-radius:5px;
 
 }
@@ -613,6 +604,7 @@ nav ul li a:hover{
 
 
 .greet-right{
+  padding-top:50px;
   width:380px;
   height:620px;
   padding-left:20px;
