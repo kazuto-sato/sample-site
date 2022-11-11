@@ -206,9 +206,7 @@ nav ul li a:hover{
   line-height: 1.5;
 }
 .message-content{
-  width:1140px;
   height:473px;
-  margin:0 auto;
   position:relative;
 }
 
@@ -217,8 +215,8 @@ nav ul li a:hover{
   font-size:2em;
   font-weight:bold;
   margin-top:40px;
-  padding-top:30px;
   line-height:70px;
+  display: inline-block;
 }
 
 .message{
@@ -290,14 +288,7 @@ nav ul li a:hover{
 }
 
 
-.upper-list{
-  height:505px;
 
-}
-.under-list{
-  height:505px;
-  
-}
 .course-list{
   height:504px;
   width:374px;
@@ -334,7 +325,7 @@ nav ul li a:hover{
   margin:0 auto;
   color:#212529;
   font-size: 1.75em;
-  font-weight:bold;
+  font-weight:500;
   margin-bottom:15px;
   opacity:0.98;
 }

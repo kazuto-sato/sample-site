@@ -92,8 +92,7 @@
     .visual_content p{
         display: inline-block;
     }
-    .date-notice{
-    }
+  
     .date-notice p{
         display:block;
         font-size:1.25rem;
@@ -101,10 +100,75 @@
     .date-notice h3{
         margin-bottom:30px;
     }
+    .message{
+        height:940px;
+        display: flex;
+        position:relative;
+    }
+    .message-content{
+        display: flex;
+        flex-direction:column;
+    }
+    .message-title{
+        order:2;
+        padding-left:22px;
+        padding-top:0;
+    }
+    .message-text{
+        order:3;
+        width:90%;
+        margin:0 auto;
+    }
+    .m-logo{
+        width:90%;
+        order:1;
+        margin:0 auto;
+        margin-top:40px;  
+        margin-bottom:-40px;
+    }
+    .subject-container{
+        height:3150px;
+    }
+    .subject-list{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .course-list{
+        width:100%;
+    }
+    .list-one{
+        width:100%;
+        margin-bottom:30px;
+    }
+    .list-one p,
+    .list-one h1{
+        width:100%;
+    }
+    .about{
+    }
+    .about-container{
+        display: flex;
+        justify-content:space-between;
+        flex-direction: column
+    }
+    .about-title{
+        margin-bottom:30px;
+    }
+    .about-two{
+        margin-top:170px;
+    }
+    .about-text h2{
+        padding-bottom:80px;
+    }
+    .about-text p{
+        padding-bottom:350px;
+    }
+    .about-ad{
+        margin-top:200px;
+        padding-bottom:30px;
+    }
 
-
-
-    
     
 
 
