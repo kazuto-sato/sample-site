@@ -891,21 +891,16 @@ nav ul li a:hover{
 .table-two{
   background-color: teal;
 }
-.table-two tr{
-  
-}
 .tr02{
   border:white;
 }
 
-
-
 .reserve{
   width: 1140px;
   height:48px;
-  border-radius: 0.3rem;
+  border:1px solid #6c757d;
+  border-radius:3px;
   margin-top: 41px;
-  border:1px solid 6c757d;
   transition-property:all;
   transition-duration: 0.5s;
 }
@@ -971,9 +966,7 @@ nav ul li a:hover{
 
 
 .footer{
-  height:585px;
   background-color: #e6ede9;
-
 }
 
 
@@ -1053,7 +1046,6 @@ nav ul li a:hover{
   line-height: 60px;
   color:white;
   margin-right:0;
-  background-color: teal;
 }
 
 .fb-right img{
