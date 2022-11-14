@@ -499,15 +499,13 @@ nav ul li a:hover{
 
 .greeting{
   height:760px;
-  padding-top:90px;
+  padding-top:80px;
+  position:relative;
   background-color:#f8f9fa;
   border-bottom:1px solid rgb(228, 228, 228);
 }
 
 
-.greeting-container li{
-  float:left;
-}
 
 
 .greet-left{
@@ -519,7 +517,6 @@ nav ul li a:hover{
   line-height:30px;
   border-left:6px solid #aaa;
   padding-left:20px;
-  margin-top:30px;
   margin-bottom:40px;
   font-size: 2em;
   font-weight: 500;
@@ -604,11 +601,13 @@ nav ul li a:hover{
 
 
 .greet-right{
-  padding-top:50px;
+  padding-top:90px;
   width:380px;
   height:620px;
   padding-left:20px;
-  
+  position:absolute;
+  right:0;
+  top:0;
 }
 .greet-right h2{
   width:348px;
@@ -625,7 +624,7 @@ nav ul li a:hover{
   width:316px;
   height:346px;
   margin:16px;
-  
+  object-fit: cover;
 }
 
 

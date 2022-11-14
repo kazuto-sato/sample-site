@@ -102,7 +102,6 @@
     }
     .message{
         height:940px;
-        display: flex;
         position:relative;
     }
     .message-content{
@@ -145,8 +144,7 @@
     .list-one h1{
         width:100%;
     }
-    .about{
-    }
+  
     .about-container{
         display: flex;
         justify-content:space-between;
@@ -190,35 +188,98 @@
     .gallery-content h2{
         width:100%;
         margin-left:0;
-        justify-content:center;
+        text-align: center;
     }
     .gallery-content h2 img{
         width:390px;
+        vertical-align:middle;
     }
     .greeting{
-        height:2000px;
-        background-color: firebrick;
+        height:100%;
+        padding-bottom:70px;
     }
     .greeting-container{
-        display: flex;
+        height:100%;
     }
-    .greeting-container li{
-        float:none;
+    .greet-left{
+        padding-top:400px;
     }
     .greet-title{
-        order:1;
+        position: relative;
+    }
+    .greet-title span{
+        display: block;
+        position:absolute;
+        top:40px;
+        left:0px;
     }
     .greet-one{
-        order:3;
-    }
-    .greet-two{
-        order:4;
+        margin-bottom:10px;
     }
     .greet-three{
-        order:5;
+        height: auto;
     }
     .greet-right{
-        order:2;
+        width:100%;
+        height:auto;
+        padding:0;
     }
+    .greet-right h2{
+        width:100%;
+        height:auto;
+    }
+    .greet-right h2 img{
+        width:100%;
+        padding:15px;
+        margin:0;
+    }
+    .introduce{
+        height: 2300px;
+    }
+    .intro-container{
+        display: flex;
+        flex-direction:column
+    }
+    .intro-content{
+        width:100%;
+        height: 100%;
+    }
+    .intro-content img{
+        width:100%;
+        height:auto;
+        margin:0;
+        padding:15px;
+    }
+    .intro-one,.intro-two,.intro-three{
+        width:100%;
+        margin-right:0;
+        margin-left:0;
+        margin-bottom:10px;
+        background-color: white;
+        border:1px solid rgba(0,0,0,.125);
+        border-radius:5px;
+        box-shadow:rgba(122, 122, 122, 0.0588235) 0px 0px 6px 3px;
+    }
+    .intro-intro{
+        width:90%;
+        margin:0 auto;        
+    }
+    .treatment{
+        height:2000px;
+        background-color: brown;
+    }
+    .treat-container{
+        padding-bottom:30px;
+    }
+    .table-one{
+        margin-bottom:60px;
+    }
+    .table-two{
+        margin-bottom:30px;
+    }
+    .reserve{
+    padding-top:100px;
+    }
+
 }
 
