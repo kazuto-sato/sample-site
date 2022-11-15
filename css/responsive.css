@@ -484,7 +484,7 @@
 
       }
       /* アニメーション後のメニューの状態 */
-      .menu.is-active{
+      /*.menu.is-active{
         transform: translateX(0);
       }
       
