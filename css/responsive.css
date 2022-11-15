@@ -135,10 +135,15 @@
     }
     .course-list{
         width:100%;
+        padding-bottom:15px;
     }
     .list-one{
         width:100%;
-        margin-bottom:30px;
+        padding-bottom:15px;
+        margin-bottom:15px;
+    }
+    .subject-logo{
+        width:90%;
     }
     .list-one p,
     .list-one h1{
@@ -191,7 +196,7 @@
         text-align: center;
     }
     .gallery-content h2 img{
-        width:390px;
+        width:92%;
         vertical-align:middle;
     }
     .greeting{
@@ -214,7 +219,7 @@
         left:0px;
     }
     .greet-one{
-        margin-bottom:10px;
+        margin-bottom:60px;
     }
     .greet-three{
         height: auto;
@@ -255,6 +260,7 @@
         margin-right:0;
         margin-left:0;
         margin-bottom:10px;
+        padding-bottom:15px;
         background-color: white;
         border:1px solid rgba(0,0,0,.125);
         border-radius:5px;
@@ -263,6 +269,10 @@
     .intro-intro{
         width:90%;
         margin:0 auto;        
+    }
+    .spo-ad01{
+        padding-top:20px;
+        margin:auto;
     }
     .treatment{
         height:1100px;
