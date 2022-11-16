@@ -1,19 +1,7 @@
 $(function(){
     $('button').on('click',function(){
         $('.menu').slideToggle();
-    })
-
-
-
-
-	$('a[href^="#"]').on('click',function(){
-		var speed = 500;
-		var href= $(this).attr("href");
-		var target = $(href == "#" || href == "" ? 'html' : href);
-		var position = target.offset().top;
-		$("html, body").animate({scrollTop:position}, speed, "swing");
-		return false;
-	});
+    });
 
 	$('a[href^="#"]').on('click',function(){
 		var speed = 500;
@@ -33,11 +21,14 @@ $(function(){
 			slidesToShow: 1,
 		  }
 		}]
-	  });
+	 });
 	 
 	$('.slider').slick();
-	  
+
+	//日付取得する
+	const now = new Date();
+	const today = now.getDate();
+
+	//その日付と同じdate-日付のクラスに is-active のクスラスを付与する。
 	
-
-
 });
