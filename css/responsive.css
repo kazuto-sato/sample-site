@@ -58,9 +58,14 @@
         width: 100%;
     }
 
-    .key-visual{
-        display: flex;
+    .key_visual{
+        height:300px;
         align-items: center;
+    }
+    .key_visual img{
+        align-items: center;
+        height:300px;
+        width:100%;
     }
     .l-container {
         width:95%;
@@ -394,9 +399,9 @@
     
     .menu{
         height:auto;
-        display:;
+        display:none;
         flex-direction: column;
-        background-color:red;
+        background-color:#343a40;
     }
     
     .menu__item{

@@ -107,12 +107,19 @@ nav ul li a:hover{
 }
 
 .key_visual{
-  height:600px;
-  background-image:url(../img/top-image.jpg);
+  height:800px;
+  /* background-image:url(../img/top-image.jpg); 
   background-repeat:no-repeat;
   background-size:cover;
   background-position:center;
-  position:relative;
+  position:relative;*/
+}
+.key_visual img{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height:700px;
+  width:100%;
 }
 .visual_content{
   width:555px;
@@ -126,6 +133,7 @@ nav ul li a:hover{
   top:45px;
 
 }
+
 
 .visual_content h2{
   font-size:3.5em;
@@ -1047,3 +1055,9 @@ nav ul li a:hover{
   filter: invert(88%) sepia(61%) saturate(0%) hue-rotate(229deg) brightness(107%) contrast(101%);
 }
 
+
+/* ここからハイライト*/
+.slide-items__wrap {
+  height: 50%;
+  margin: auto;
+}
