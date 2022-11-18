@@ -31,12 +31,6 @@ $(function(){
 
 	//その日付と同じdate-日付のクラスに is-active のクスラスを付与する。
 	
-	
-	
-	const now = new Date();
-	const date =now.getDate(); 
-		console.log(date);
-
 	/*
 	const x = document.getElementsByTagName("td");
 	  console.log(x);
@@ -45,8 +39,6 @@ $(function(){
 		console.log('インデックス番号:' + i + '、テキスト:' + $(o).text());
 	});
 	*/
-
-	const x = ; 
 
 	if (date == x){
 		console.log('AAAAAAAAAAAAAAA');
