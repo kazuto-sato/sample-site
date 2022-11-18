@@ -31,4 +31,47 @@ $(function(){
 
 	//その日付と同じdate-日付のクラスに is-active のクスラスを付与する。
 	
+	
+	
+	const now = new Date();
+	const date =now.getDate(); 
+		console.log(date);
+
+	/*
+	const x = document.getElementsByTagName("td");
+	  console.log(x);
+	
+	$("td").each(function(i, o){
+		console.log('インデックス番号:' + i + '、テキスト:' + $(o).text());
+	});
+	*/
+
+	const x = ; 
+
+	if (date == x){
+		console.log('AAAAAAAAAAAAAAA');
+	}
+
+	
+	
+	/*
+	console.log(getElementById('#td');
+
+	
+
+
+	/*
+	const date = document. querySelector(td);
+	  console.log('tdだぞ'); */
+
+	/*const = this.documentElement.querySelector('id');*/
+	
+	/*
+	$('td').each(function(index){
+		console.log(index);
+	})
+	
+	if　(now == ){
+		$('追加したいタグ').addClass('is-active');
+	};*/
 });

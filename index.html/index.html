@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,10 +10,8 @@
   <link rel="stylesheet" href="../css/style.css">
   <link rel="stylesheet" href="../css/responsive.css">
 
-  <link rel="stylesheet" href="slick/slick-theme.css">
-  <link rel="stylesheet" href="slick/slick.css">
-  <script src="js/jquery2.2.4.min.js"></script>
-  <script src="slick/slick.min.js"></script>
+  <link rel="stylesheet" href="../slick/slick-theme.css">
+  <link rel="stylesheet" href="../slick/slick.css">
 </head>
 
 <body>
@@ -34,15 +33,15 @@
 
 <nav>
   <ul>
-    <li><a href="#">MENU</a></li>
-    <li><a href="#">MENU</a></li>
-    <li><a href="#">MENU</a></li>
-    <li><a href="#">MENU</a></li>
-    <li><a href="#">MENU</a></li>
-    <li><a href="#">MENU</a></li>
-    <li><a href="#">MENU</a></li>
-    <li><a href="#">MENU</a></li>
-    <li><a href="#">MENU</a></li>
+    <li><a href="#menu1">お知らせ</a></li>
+    <li><a href="#menu2">メッセージ</a></li>
+    <li><a href="#menu3">診療科目</a></li>
+    <li><a href="#menu4">当院について</a></li>
+    <li><a href="#menu5">院内ギャラリー</a></li>
+    <li><a href="#menu6">院長のご挨拶</a></li>
+    <li><a href="#menu7">スタッフ紹介</a></li>
+    <li><a href="#menu8">診療時間</a></li>
+    <li><a href="#menu9">アクセス</a></li>
   </ul>
 </nav>
 
@@ -53,12 +52,12 @@
     <div class="menu__item"><a href="#menu1">MENU</a></div>
     <div class="menu__item"><a href="#menu2">MENU</a></div>
     <div class="menu__item"><a href="#menu3">MENU</a></div>
-    <div class="menu__item"><a href="#">MENU</a></div>
-    <div class="menu__item"><a href="#">MENU</a></div>
-    <div class="menu__item"><a href="#">MENU</a></div>
-    <div class="menu__item"><a href="#">MENU</a></div>
-    <div class="menu__item"><a href="#">MENU</a></div>
-    <div class="menu__item"><a href="#">MENU</a></div>
+    <div class="menu__item"><a href="#menu4">MENU</a></div>
+    <div class="menu__item"><a href="#menu5">MENU</a></div>
+    <div class="menu__item"><a href="#menu6">MENU</a></div>
+    <div class="menu__item"><a href="#menu7">MENU</a></div>
+    <div class="menu__item"><a href="#menu8">MENU</a></div>
+    <div class="menu__item"><a href="#menu9">MENU</a></div>
     <div class="menu__item">
       <p>お電話でのご予約はこちら</p>
       <p>03-1234-5678</p>
@@ -69,29 +68,15 @@
 
 
 <div class="key_visual">
-  <div class="slider">
-    <div class="slider_item">①</div>
-    <div class="slider_item">②</div>
-    <div class="slider_item">③</div>
-  </div>
-
-
   <div class="slide-items__wrap">
     <ul class="slide-items">
-      <li class="slide-items__item">
-        <img src="../img/top-image.jpg" alt="">
-      </li>
-      <li class="slide-items__item">
-        <img src="../img/message.jpg" alt="">
-      </li>
-      <li class="slide-items__item">
-        <img src="../img/image.jpg" alt="">
-      </li>
+      <li class="slide-items__item"><img src="../img/top-image.jpg" alt=""></li>
+      <li class="slide-items__item"><img src="../img/message.jpg" alt=""></li>
+      <li class="slide-items__item"><img src="../img/image.jpg" alt=""></li>
     </ul>
   </div>
   <!--
   <div class="l-container">
-    
     <div class="visual_content">
       <h2>Hello, world!</h2>
       <p>This is a simple hero unit, a simple jumbotron-style bcomponent for calling extra attention to featured content or information.</p>
@@ -196,7 +181,7 @@
 </subject> 
 
 
-<div class="about">
+<div class="about" id="menu4">
   <div class="about-container l-container">  
     <h1 class="about-title">当院について<span>With faded secondary text</span></h1>
 
@@ -223,7 +208,7 @@
 </div>
 
 
-<div class="gallery">
+<div class="gallery" id="menu5">
   <div class="l-container">
     <h1 class="gallery-title">院内ギャラリー<span>With faded secondary text</span></h1>
   
@@ -261,7 +246,7 @@
 
 
 
-<div class="greeting">
+<div class="greeting" id ="menu6">
   <div class="greeting-container l-container">
     <div class="greet-left">
       <div class="greet-title">
@@ -304,7 +289,7 @@
 
 
 
-<div class="introduce">
+<div class="introduce" id="menu7">
   <div class="intro-container l-container">
     <h1 class="intro-title">スタッフ紹介<span>With faded secondary text</span></h1>
     <div class="intro-content"> 
@@ -356,7 +341,7 @@
 
 
 
-<div class="treatment">
+<div class="treatment" id="menu8">
   <div class="treatment-container l-container">
     <h1 class="treat-title">診療時間<span>With faded secondary text</span></h1>
     <div class="treat-content">
@@ -439,10 +424,10 @@
                 <td></td>
                 <td></td>
                 <td></td>
-                <td>1</td>
-                <td>2</td>
-                <td>3</td>
-                <td>4</td>
+                <td id="td1">1</td>
+                <td id="td2">2</td>
+                <td id="td3">3</td>
+                <td id="td4">4</td>
               </tr>
               <tr>
                 <td class="date-5">5</td>
@@ -493,7 +478,7 @@
 </div>
 
 
-<div class="access">
+<div class="access" id="menu9">
   <div class="l-container">
     <h1 class="access-title">アクセス<span>With faded secondary text</span></h1>
   </div>
@@ -535,9 +520,8 @@
 
 
 
-
-
 <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+<script src="../slick/slick.min.js"></script>
 <script src="../js/jquery.js"></script>
 </body>
 </html>
