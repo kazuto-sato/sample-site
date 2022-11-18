@@ -25,12 +25,11 @@ $(function(){
 	 
 	$('.slider').slick();
 
-	//日付取得する
-	const now = new Date();
-	const today = now.getDate();
 
-	//その日付と同じdate-日付のクラスに is-active のクスラスを付与する。
-	
+	const now = new Date();
+	const date =now.getDate(); 
+		console.log(date);
+
 	/*
 	const x = document.getElementsByTagName("td");
 	  console.log(x);
