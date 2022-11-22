@@ -7,7 +7,9 @@ $(function(){
     console.log(array);
 
     /*配列から重複なしにランダムに要素を取り出す*/
-    array[5]
+    const rndnum = array[Math.floor(Math.random()*array.length)];
+    console.log(rndnum);
 
+    
     /*選んだ */
 });
