@@ -6,10 +6,29 @@ $(function(){
     }
     console.log(array);
 
-    /*配列から重複なしにランダムに要素を取り出す*/
-    const rndnum = array[Math.floor(Math.random()*array.length)];
+    /*配列からランダムに要素を取り出す*/
+    let rndnum = array[Math.floor(Math.random()*array.length)];
     console.log(rndnum);
 
     
-    /*選んだ */
+   
+   
+    const selected = randomSelect(array.slice(), 25);
+ 
+    // 配列arrayからランダムにnum個の要素を取り出す
+    function randomSelect(array, num){
+        let newArray = [];
+        while(newArray.length < num && array.length > 0){
+            // 配列からランダムな要素を選ぶ
+            const rand = Math.floor(Math.random() * array.length);
+            // 選んだ要素を別の配列に登並べてく
+            newArray.push(array[rand]);
+            //取り出した値は選ばない→もとの配列からは削除する    
+            array.splice(rand, 1);
+        }
+        console.log(newArray)
+    };
+    
+   
+    
 });
