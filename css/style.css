@@ -1061,6 +1061,7 @@ nav ul li a:hover{
   margin: auto;
 }
 
-.is-active{
-  background-color:red;
+
+td.is-active{
+  background-color:darkgreen;
 }
