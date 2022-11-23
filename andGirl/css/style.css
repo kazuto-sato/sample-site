@@ -57,4 +57,88 @@ nav{
     padding: 2px;
     color: #666;
 }
+.main-visual{
+    display:flex;
+    width:100%;
+}
+.visual-content{
+    width:33.333333%;
+    margin-right:2px;
+    position:relative;
+}
+.visual-content img{
+    width:100%;
+}
+.visual-text{
+    z-index:1;
+    position:absolute;
+    bottom:12px;
+    left:12px;
+    color: #C0C0C0;
+}
+.visual-text p:nth-child(1){
+    color:#ffffff;
+    font-family: Muli,cursive;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 17px;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+.special{
+    padding-top:20px;
+    background: #fbeff5;
+    padding-bottom:50px;
+    margin-bottom:40px;
+}
+.special p:nth-child(1){
+    font-weight:700;
+    color:pink;
+    font-size: 38px;
+    font-family:'M PLUS Rounded 1c', sans-serif;
+    text-align: center;    
+}
 
+.special p:nth-child(2){
+    font-weight:600;
+    text-align: center;
+    font-family: Hiragino Kaku Gothic Pro,Meiryo,sans-serif;
+    font-size: 12px;
+    margin-top:10px;
+    margin-bottom:20px;
+}
+.special-container{
+    width:100%;
+    display:flex;
+    justify-content:space-between
+}
+.special-content{
+    width:350px;
+    background-color: white;
+    padding-bottom:20px;
+}
+.special-content img{
+    width:100%;
+}
+.special-content a {
+    text-decoration:none;
+}
+.subject{
+    color: #fc4a9a;
+    font-family: Muli,Hiragino Kaku Gothic Pro,Meiryo,sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    display: inline-block;
+    letter-spacing: 0;
+    line-height: 1;
+    margin-bottom: 5px;
+}
+.time{
+    float:right;
+    margin-right:10px;
+    color:#666;
+    font-size:7.5px;
+}
+.title p{
+    color: #454545;
+}
