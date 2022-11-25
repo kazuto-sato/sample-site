@@ -1,0 +1,56 @@
+@media screen and ( max-width:479px ){
+    .header-left,
+    .search{
+        display:none;
+    }
+    .header,
+    .header-nav,
+    .main-visual,
+    .left-container,
+    .category,
+    .cate-content-container,
+    .fotter-upper,
+    .footer-under,
+    .special-container{
+        width:100%
+    }
+    .special{
+        width:100%;
+    }
+    .main-container,
+    .fotter-upper{
+        flex-direction:column;
+    }
+
+    /*ここからsm用のcss*/
+    .header-top{
+        display: block;
+        width: 100%;
+        position: fixed;
+        z-index: 99;
+        top: 0;
+        background: rgba(255,255,255,.85);
+    }
+    .top-image{
+        width:100px;
+        height:auto;
+        margin-left:5px;
+        padding-bottom:15px;
+    }
+    .header-nav{
+        display:none;
+    }
+    .main-visual{
+        margin-top:60px;
+    }
+    .visual-content{
+        display:none;
+    }
+    .responsive-visual-content{
+        display:block;
+        width:100%;
+    }
+    
+
+
+}
