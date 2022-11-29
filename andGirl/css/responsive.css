@@ -7,11 +7,14 @@
     .header-nav,
     .main-visual,
     .left-container,
+    .right-container,
     .category,
     .cate-content-container,
     .fotter-upper,
     .footer-under,
-    .special-container{
+    .special-container,
+    .l-container,
+    .ranking{
         width:100%
     }
     .special{
@@ -24,8 +27,7 @@
 
     /*ここからsm用のcss*/
     .header-top{
-        display: block;
-        width: 100%;
+        width:100%;
         position: fixed;
         z-index: 99;
         top: 0;
@@ -36,6 +38,7 @@
         height:auto;
         margin-left:5px;
         padding-bottom:15px;
+        position:relative;
     }
     .header-nav{
         display:none;
@@ -50,7 +53,166 @@
         display:block;
         width:100%;
     }
+    .special-content{
+        display:none;
+    }
+    .js-special-content{
+        display:block;
+        width:90%;
+        margin:0 auto;
+    }
+    .special-content img:nth-child(2){
+        width:90%;
+        display:block;
+        margin:0 auto;
+    }
+    .article-container{
+        padding:0 8px;
+    }
+    .new-content{
+        width:48.5%;
+    }
+    .btn{
+        width: 40px;
+        height: 40px
+    }
+    .left-container{
+        height:auto;
+    }
+    .right-container{
+        height:auto;
+        padding-bottom:60px;
+    }
+    .ranking-content{
+        display:flex;
+        width: 95%;
+        margin: 15px auto;
+    }
+    .content-explain{
+        width:55%;
+        padding-top:8px;
+    }
+    .more{
+        opacity:0.9;
+        width:95%;
+        margin:0 auto;
+    }
+    .more-text{
+        height:auto;
+    }
+    .right-image1{
+        width:95%;
+        margin:30px auto;
+    }
+    .right-image1 img:first-child{
+        margin-bottom:20px;
+    }
+    .recommend,
+    .column{
+        width:95%;
+        margin:0 auto;
+    }
+    .recommend-explain{
+        width:55%;
+    }
+
+    .fotter-column{
+        width:100%;
+        padding-left:0;
+        padding-top:15px;
+    }
+    .fotter-column a{
+        text-align:left;
+        padding-bottom:20px;
+        padding-left:10px;
+        margin:10px 0;
+        border-bottom:1px solid #ddd;
+    }
+    .category{
+        width:95%;
+        margin:0 auto;
+    }
+    .cate-content-container{
+        justify-content:start;
+    }
+    .category-content{
+        width:48%;
+        display:flex;
+        border-bottom:1px solid #ddd;
+    }
+    .respinsive-category{
+        border-right:1px solid #ddd;
+    }
+    .category-content-explain{
+        margin-right:10%;
+        width:50%;
+    }
+    .follows{
+        width:95%;
+        margin:20px auto;
+    }
+    .footer-under img{
+        display:none;
+    }
+    .footer-under{
+        width:95%;
+        margin:0 auto;
+    }
+    .under-column{
+        display:flex;
+        flex-wrap:wrap;
+        display:inline-block;
+        text-align:center;
+    }
+    .under-column li{
+        margin-left:4px;
+        padding-right:5px;
+        display:inline-block;
+        margin-bottom:5px;
+    }
+    .footer-under p{
+        display:none;
+    }
     
-
-
+    .hamburger{
+        position:absolute;
+        right:5px;
+        width: 48px;
+        height: 100%;
+        background-color: transparent; 
+        border-color: transparent;
+        z-index: 9999;
+    }
+    .hamburger span{
+        width: 100%;
+        height: 1px;
+        background-color:red;
+        position: relative;
+        transition: ease .4s;
+        display: block;
+    }
+    .hamburger p{
+        margin-top:2px;
+        font-size:5px;
+        color:red;
+    }
+    .hamburger span:nth-child(1) {
+        top: 0;
+    }
+    .hamburger span:nth-child(2) {
+        margin: 8px 0;
+    }
+    .hamburger span:nth-child(3) {
+        top: 0;
+    }
+    .side-menu{
+        width:65%;
+        height:1000px;
+        background-color:seagreen;
+    }
+}
+@media screen and ( min-width:480px ){
+    .hamburger{
+        display:none;
+    }
 }

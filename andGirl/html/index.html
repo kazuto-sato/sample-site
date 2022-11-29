@@ -23,19 +23,27 @@
             </div>
             <a href="#"><img src="../img/top-image-logo.png" class="top-image"></a>
             <input type="search" placeholder="記事を探す" class="search">
+            <button class="hamburger" id="js-hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+                <p>menu</p>
+            </button>
         </div>
-
+        <div class="side-menu"></div>
         <div class="header-nav l-container">
             <nav>
                 <ul>
-                    <li><a href="#">Fashion</a></li>
-                    <li><a href="#">Beauty</a></li>
-                    <li><a href="#">Love</a></li>
-                    <li><a href="#">Fortune</a></li>
-                    <li><a href="#">Life Style</a></li>
-                    <li><a href="#">Trip</a></li>
-                    <li><a href="#">Entame</a></li>
-                    <li><a href="#">Night</a></li>
+                    <li><a href="#" class="nav-hover">Fashion</a></li>
+                    <li><a href="#" class="nav-hover">Beauty</a></li>
+                    <li><a href="#" class="nav-hover">Love</a></li>
+                    <li><a href="#" class="nav-hover">Fortune</a></li>
+                    <li><a href="#" class="hover-list">Life Style</a>
+                        <div class="hover-list-content"><a href="#">Money</a></div>
+                    </li>
+                    <li><a href="#" class="hover-list">Trip</a></li>
+                    <li><a href="#" class="nav-hover">Entame</a></li>
+                    <li><a href="#" class="hover-list">Night</a></li>
                 </ul>
             </nav>
         </div>
@@ -70,9 +78,9 @@
             <p>Special</p>
             <p>オリジナル連載</p>
             <div class="special-container">
-                <div class="special-content"><a href="#">
+                <div class="special-content js-special-content"><a href="#">
                 <img src="../img/special1-1.webp">
-                <img src="../img/special1-2.webp">
+                <img src="../img/special1-2.webp" class="js-special-image">
                 <div class="title">
                     <div class="subject">Fortune</div>
                     <div class="time">2022.11.23 WED</div>
@@ -377,7 +385,7 @@
                 <p class="category-title">Category</p>
                 <p class="category-trans">カテゴリー</p>
                 <div class="cate-content-container">
-                    <div class="category-content"><a href="#">
+                    <div class="category-content respinsive-category"><a href="#">
                         <img src="../img/cate-imge.webp">
                         <div class="category-content-explain">
                             <p>Love</p>
@@ -391,7 +399,7 @@
                             <p>恋愛・結婚</p>
                         </div>                        
                     </a></div>
-                    <div class="category-content"><a href="#">
+                    <div class="category-content respinsive-category"><a href="#">
                         <img src="../img/cate-imge.webp">
                         <div class="category-content-explain">
                             <p>Love</p>
@@ -405,7 +413,7 @@
                             <p>恋愛・結婚</p>
                         </div>                        
                     </a></div>
-                    <div class="category-content"><a href="#">
+                    <div class="category-content respinsive-category"><a href="#">
                         <img src="../img/cate-imge.webp">
                         <div class="category-content-explain">
                             <p>Love</p>
@@ -419,7 +427,7 @@
                             <p>恋愛・結婚</p>
                         </div>                        
                     </a></div>
-                    <div class="category-content"><a href="#">
+                    <div class="category-content respinsive-category"><a href="#">
                         <img src="../img/cate-imge.webp">
                         <div class="category-content-explain">
                             <p>Love</p>
@@ -468,8 +476,8 @@
             </div>
         </div>
     </div>
-
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="../js/script.js"></script>
 
 </body>
 </html>
