@@ -15,7 +15,7 @@
     .special-container,
     .l-container,
     .ranking{
-        width:100%
+        width:100%;
     }
     .special{
         width:100%;
@@ -173,7 +173,6 @@
     .footer-under p{
         display:none;
     }
-    
     .hamburger{
         position:absolute;
         right:5px;
@@ -206,9 +205,21 @@
         top: 0;
     }
     .side-menu{
-        width:65%;
-        height:1000px;
+        width:0;
+        height:100vh;
+        position:fixed;
+        top:0;
+        right:0;
+        z-index:10;
+        transform:(250px);
+        transition:all .5s;
         background-color:seagreen;
+    }
+    .header{
+        position:relative;
+    }
+    .side-menu.active{
+        width:65%;
     }
 }
 @media screen and ( min-width:480px ){

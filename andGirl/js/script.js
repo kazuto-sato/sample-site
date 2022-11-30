@@ -1,6 +1,7 @@
 $(function(){
-    const ham =$(`#js-hamburger`);
-    ham.on('click',function(){
-        $('#side-menu').slideToggle();
+    $('button').on('click',function(){
+        $('.side-menu').toggleClass('active');
     });
+    
+
 });
