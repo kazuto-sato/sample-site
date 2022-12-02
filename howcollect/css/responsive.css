@@ -1,0 +1,75 @@
+p {
+  font-family: Tsukushi A Round Gothic;
+}
+
+header {
+  padding-top: 5px;
+  background-color: #E5E5E5;
+}
+
+header .header-container {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 25px;
+  width: 325px;
+}
+
+header .header-container .header-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .header-container .header-left a {
+  text-decoration: none;
+  width: 125px;
+}
+
+header .header-container .header-left p {
+  font-weight: bold;
+  font-size: 11px;
+  color: #333333;
+  line-height: 1.9;
+  letter-spacing: 0.1em;
+}
+
+header .header-container .header-right {
+  width: 25px;
+  height: 25px;
+  background-color: chocolate;
+}
+
+.top-visual {
+  padding-top: 10px;
+  background-color: #E5E5E5;
+}
+
+.top-visual .top-content {
+  background-color: crimson;
+  width: 325px;
+  height: 334px;
+  margin: auto;
+}
+
+.top-visual .top-content a {
+  text-decoration: none;
+}
+
+.top-visual .top-content a img {
+  width: 100%;
+  height: auto;
+}
+
+.top-visual .top-content p {
+  font-family: bold;
+  font-size: 15px;
+  line-height: 2.1;
+  background-color: white;
+  color: #333333;
+  width: 100%;
+  overflow: hidden;
+  white-space: wrap;
+}
+/*# sourceMappingURL=responsive.css.map */

@@ -1,0 +1,63 @@
+h1{
+    
+}
+p{
+    font-family:Tsukushi A Round Gothic;
+}
+header{
+    padding-top:5px;
+    background-color:#E5E5E5;
+    .header-container{
+        margin:0 auto;
+        display:flex;
+        height:25px;
+        width:325px;
+        .header-left{
+            display:flex;
+            a{
+                text-decoration:none;
+                width:125px;
+            }
+            p{
+                font-weight:bold;
+                font-size:11px;
+                color:#333333;
+                line-height:1.9;
+                letter-spacing:0.1em;
+            }
+        }
+        .header-right{
+            width:25px;
+            height:25px;
+            background-color:chocolate;
+        }
+    }
+}
+.top-visual{
+    padding-top:10px;
+    background-color:#E5E5E5;
+    .top-content{
+        background-color: crimson;
+        width:325px;
+        height:334px;
+        
+        margin:auto;
+        a{
+            text-decoration:none;
+            img{
+                width:100%;
+                height:auto;
+            }
+        }
+        p{
+            font-family:bold;
+            font-size:15px;
+            line-height:2.1;
+            background-color:white;
+            color:#333333;
+            width:100%;
+            overflow:hidden;
+            white-space:wrap;
+        }
+    }
+}
